@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #b32828;
+    @apply bg-gray-100 min-h-screen py-8;
+}
+
+@keyframes typing {
+    0% {
+        border-right-color: transparent;
+    }
+    50% {
+        border-right-color: #d33ebf;
+    }
+    100% {
+        border-right-color: transparent;
+    }
+}
+
+.typing-animation {
+    border-right: 2px solid transparent;
+    animation: typing 1s ease-in-out infinite;
+}
+
+.group-hover\/delete\:opacity-100:hover img {
+    filter: invert(23%) sepia(51%) saturate(7414%) hue-rotate(335deg)
+        brightness(91%) contrast(93%);
+}
+
+.btn-container {
+    @apply flex gap-2 items-center ;
+}
+
+.grocery-list {
+    @apply flex flex-col gap-2;
+}
+
+.grocery-item {
+    @apply flex items-center justify-between p-3 bg-[#3f3f3f] rounded-lg hover:bg-[#4a4a4a] transition-all duration-300;
+}
+
+.grocery-item-text {
+    @apply text-[#ffffff] hover:text-[#a8a8a8] transition-colors duration-300;
+}
+
+.grocery-item .edit-btn {
+    @apply text-[#4CAF50] hover:text-[#5dc761] transition-colors duration-300;
+}
+
+.grocery-item .edit-btn img,
+.grocery-item .delete-btn img {
+    @apply w-4 h-4 filter invert hover:scale-110 transition-transform duration-300;
+}
+
+.grocery-item .delete-btn {
+    @apply text-[#d33ebf] hover:text-red-500 transition-colors duration-300;
+}

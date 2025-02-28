@@ -1,0 +1,36 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list"
+  ],
+  "tailwindCSS.colorDecorators": true,
+  "tailwindCSS.showPixelEquivalents": true,
+  "tailwindCSS.rootFontSize": 16,
+  "tailwindCSS.hovers": true,
+  "tailwindCSS.suggestions": true,
+  "tailwindCSS.codeActions": true,
+  "tailwindCSS.validate": true,
+  "tailwindCSS.lint": {
+    "invalidScreen": "error",
+    "invalidVariant": "error",
+    "invalidTailwindDirective": "error",
+    "invalidApply": "error",
+    "invalidConfigPath": "error",
+    "cssConflict": "warning",
+    "recommendedVariantOrder": "warning"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "css.validate": false
+}

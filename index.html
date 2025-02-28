@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grocery List</title>
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="./fontawesome-free-5.12.0-web/css/all.min.css"
+        />
+        <!-- styles -->
+        <link rel="stylesheet" href="./style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body class="bg-[#121212] min-h-screen py-8">
+        <div
+            class="max-w-md mx-auto bg-[#282828] rounded-lg shadow-lg p-6 border border-[#3f3f3f] flex flex-col justify-between"
+        >
+            <div
+                id="errorAlert"
+                class="hidden text-center text-[#d33ebf] mb-4 bg-[#462440] py-2 px-4 rounded-md border border-[#593953]"
+            ></div>
+            <div
+                id="successAlert"
+                class="hidden text-center text-[#4CAF50] bg-[#2E4D2F] py-2 px-4 rounded-md border border-[#3B5E3C]"
+            ></div>
+            <div class="container mx-auto px-4">
+                <h1
+                    class="text-5xl mb-8 font-extrabold text-center m-auto bg-clip-text bg-gradient-to-r from-[#d33ebf] to-[#f1b0e3] text-transparent hover:scale-105 transition-transform duration-300 cursor-pointer"
+                >
+                    Grocery Bud
+                </h1>
+
+                <!-- input field -->
+                <form id="grocery-form" class="flex gap-2 mb-6">
+                    <input
+                        id="grocery"
+                        type="text"
+                        class="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#d33ebf] bg-[#3f3f3f] text-[#8b8b8b] placeholder-[#575757] border-[#575757] hover:typing-animation /* Updated animation class */"
+                        placeholder="e.g. eggs"
+                    />
+                    <button
+                        type="submit"
+                        class="bg-[#d33ebf] text-[#121212] px-4 py-2 rounded-lg hover:bg-[#e071ce] transition-all duration-300 font-medium"
+                    >
+                        <img
+                            class="w-4 h-4 filter invert"
+                            src="./src/add.png"
+                            alt="add"
+                        />
+                    </button>
+                </form>
+                <div
+                    class="space-y-3 text-[#8b8b8b] transition-all duration-300"
+                    id="grocery-list"
+                >
+                    <!-- added dinamically -->
+                </div>
+            </div>
+
+            <button
+                id="clearItemsButton"
+                class="mt-6 w-full text-center text-[#8b8b8b] hover:text-[#d33ebf] transition-colors duration-300 py-2 border-t border-[#3f3f3f]"
+            >
+                Clear Items
+            </button>
+        </div>
+    </body>
+</html>

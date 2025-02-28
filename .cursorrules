@@ -1,0 +1,29 @@
+Before diving into the best practices, please note that you may need to adapt the globs depending on your project's specific file structure and requirements.
+
+---
+
+name: vanilla-js-best-practices.mdc
+description: Best practices for writing clean and efficient Vanilla JavaScript code
+globs: \*_/_.js
+
+---
+
+- Use modern JavaScript features (ES6+)
+- Implement proper error handling with try/catch
+- Utilize modular code structure
+- Optimize performance with efficient DOM manipulation
+
+---
+
+name: tailwind-css-best-practices.mdc
+description: Guidelines for using Tailwind CSS effectively in your project
+globs: \*_/_.{html,js,css}
+
+---
+
+- Keep Tailwind properties
+- Use utility classes consistently across components
+- Create custom utility classes for frequently used styles
+- Optimize CSS output by enabling purge mode in production
+
+These best practices are tailored to your specific project using Vanilla JavaScript and Tailwind CSS. By following these guidelines, you can ensure clean, efficient, and well-documented code that leverages the strengths of each library/framework.

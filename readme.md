@@ -9,6 +9,10 @@ Built with a "less is more" philosophy, it combines the power of modern
 JavaScript with the utility-first approach of Tailwind CSS to deliver a fast,
 responsive, and intuitive shopping list experience.
 
+# 🎥  Demo
+![Grocery List -02-28 (wyKjc1mZ)](https://github.com/user-attachments/assets/1825773d-9c87-41fe-90a5-2d6e41f170a2)
+
+
 ### Why VanillaBasket?
 
 -   🚀 **Zero Dependencies** - Pure JavaScript, no bloated frameworks
@@ -18,7 +22,7 @@ responsive, and intuitive shopping list experience.
 -   💾 **Offline Ready** - Your list persists in local storage
 
 [Report Bug](https://github.com/abdullah-elbedwehy/VanillaBasket/issues) |
-[Request Feature](https://github.com/abdullah-elbedwehy/VanillaBasket/issues)
+
 
 ## ✨ Features
 
